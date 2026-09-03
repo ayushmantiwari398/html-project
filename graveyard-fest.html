@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Graveyard Fest | LPU</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: radial-gradient(circle at top, #1a1a2e, #0d0d0d 70%);
+    color: #e6e6e6;
+    font-family: 'Georgia', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  header {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    color: #ff4b4b;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #8b0000;
+    letter-spacing: 3px;
+  }
+
+  .subtitle {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #b3b3b3;
+    letter-spacing: 2px;
+  }
+
+  .fog {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: #888;
+    margin-top: 5px;
+  }
+
+  .graveyard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 60px 20px;
+  }
+
+  .tombstone {
+    background: #2b2b2b;
+    border: 2px solid #555;
+    border-radius: 50% 50% 8px 8px;
+    padding: 30px 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .tombstone:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(255,0,0,0.6);
+  }
+
+  .tombstone h3 {
+    color: #ff6b6b;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+
+  .tombstone p {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+
+  .details {
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .details p {
+    font-size: 1.1rem;
+    color: #d9d9d9;
+    margin: 5px 0;
+  }
+
+  .register-btn {
+    margin-top: 25px;
+    padding: 12px 35px;
+    font-size: 1.1rem;
+    background: #8b0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background 0.3s ease;
+  }
+
+  .register-btn:hover {
+    background: #ff0000;
+  }
+
+  footer {
+    margin-top: auto;
+    padding: 20px;
+    font-size: 0.85rem;
+    color: #777;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>🪦 Graveyard Fest 🪦</h1>
+    <p class="subtitle">LPU Presents a Night of Chills & Thrills</p>
+    <p class="fog">~ Enter if you dare ~</p>
+  </header>
+
+  <section class="graveyard">
+    <div class="tombstone">
+      <h3>Haunted DJ Night</h3>
+      <p>Dance under the moonlight with spine-chilling beats.</p>
+    </div>
+    <div class="tombstone">
+      <h3>Horror Story Slam</h3>
+      <p>Live storytelling that'll freeze your blood.</p>
+    </div>
+    <div class="tombstone">
+      <h3>Escape the Crypt</h3>
+      <p>Solve puzzles before the clock strikes midnight.</p>
+    </div>
+    <div class="tombstone">
+      <h3>Costume Contest</h3>
+      <p>Best spooky look wins a mystery prize.</p>
+    </div>
+  </section>
+
+  <section class="details">
+    <p>📅 Date: Fill Event Date</p>
+    <p>📍 Venue: LPU Campus Ground</p>
+    <p>⏰ Time: 6:00 PM Onwards</p>
+    <button class="register-btn">Register Now</button>
+  </section>
+
+  <footer>
+    &copy; 2026 LPU Graveyard Fest. All rights reserved.
+  </footer>
+
+</body>
+</html>
